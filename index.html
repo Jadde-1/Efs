@@ -1,92 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>elephant Studio</title>
-    <!--Navn giv din side. Det er står oppe i fanen på din pc-->
-  <link rel="stylesheet" href="style.css">
-  <!--Husk altid at linke din css fil ellers virker den ikke:) -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Anton&family=Comfortaa:wght@300&display=swap" rel="stylesheet">
-<link rel="icon" type="image/x-icon" href="elephant.png">
-<link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Elephant Studio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="elephant.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
-  <!--ul h2-->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet">
-
-<!--ul li-->
-
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
 </head>
 
-<!--for at få animationer skal man bruge dette link og en class som kan finde inde på animation.css-->
 <body>
+
+    <div class="menu-dropdown">
+        <button class="lavkage-btn"><img src="menu.png" alt="knap til andre sider"></button>
+        <div class="dropdown-content">
+            <a href="index.html">Hjem</a>
+            <a href="gallerie.html">Gallerie</a>
+            <a href="kontakt.html">Kontakt</a>
+            <a href="pending">Om Struket</a>
+            <!-- Tilføj flere sider efter behov -->
+        </div>
+    </div>
+    
     <div class="knap">
-        <a href="index.html">Hjem</a> 
+        <a href="index.html">Hjem</a>
         <a href="gallerie.html">Gallerie</a>
         <a href="kontakt.html">Kontakt</a>
         <a href="insæt">Om Struket</a>
-        <!--a href er der hvor du vil have en kanp hvor du føres til en af dine egne sider. Der hvor der nu står hjem er det er står på kappen.-->
     </div>
- <hr>
 
+    <hr>
 
-<h1 class="overskrift">Elephant studio</h1>
-<h2 class="underskrift">Musik uden lige</h2>
+    <div class="content">
+        <h1 class="overskrift">Elephant Studio</h1>
+        <h2 class="underskrift">Musik uden lige</h2>
 
+        <h2 class="omos">Hvad er Elephant Studio?</h2>
+        <p class="omos1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+            dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,sunt in culpa qui officia
+            deserunt mollit anim id est laborum.</p>
 
-<h2 class="omos">Hvad er elephant studio?</h2>
+        <h2 class="omos">Kunne du tænke dig at leje studiet?</h2>
+        <p class="omos1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+            dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,sunt in culpa qui officia
+            deserunt mollit anim id est laborum.</p>
+    </div>
 
-<h2 class="omos1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
-  ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-  in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-  non proident,sunt in culpa qui officia deserunt mollit anim id est laborum.</h2>
-
-<br>
-
-<h2 class="omos">Kunne du tænkte dig at leje studiet?</h2>
-
-<h2 class="omos1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
-  ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-  in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-  non proident,sunt in culpa qui officia deserunt mollit anim id est laborum.</h2>
-
-
-
+    <footer>
+        <div class="row">
+            <ul>
+                <h2>Genveje</h2>
+                <li><a href="gallerie.html">Gallerie</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+                <li><a href="indsæt">Om struket</a></li>
+                <li><a href="indsæt">Cookies</a></li>
+            </ul>
+            <div class="sted">
+                <h2>Lokation:</h2>
+                <p>Vægterve 15j<br>4720 Præstø<br>Tlf. xxxxxxx</p>
+            </div>
+            <div class="icons">
+                <h2>Vi er på Facebook</h2>
+                <a href="https://www.facebook.com" target="_blank">
+                    <button class="facebook">
+                        <img height="40vw" src="facebook.png" alt="Åbner Facebook">
+                    </button>
+                </a>
+            </div>
+        </div>
+    </footer>
 </body>
-
-<footer>
-  <div class="row">
-      
-    <ul>
-      <h2>Genveje</h2>
-
-      <li><a href="gallerie.html">Gallerie</a></li>
-      <li><a href="kontakt.html">Kontakt</a></li>
-      <li><a href="indsæt">Om struket</a></li>
-      <li><a href="indsæt">Cookies</a></li>
-    </ul>
-    <div class="sted">
-      <h2>Lokation:</h2>
-      <h2>Vægterve 15j<br>4720 Præstø<br>Tlf. xxxxxxx</h2>
-    </div>
-    <div class="icons">
-      <h2>Vi er på Facebook</h2>
-      <a href="https://www.facebook.com" target="_blank">
-        <button class="facebook">
-          <img height="40vw" src="facebook.png" alt="Åbner Facebook">
-        </button>
-      </a>
-    </div>
-  </div>
-</footer>
 
 </html>
